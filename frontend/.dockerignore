@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.log
+.git/
+.gitignore
+Dockerfile
+README.md

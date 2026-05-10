@@ -1,0 +1,99 @@
+############################
+# Environment & Secrets
+############################
+.env
+.env.*
+*.env
+
+############################
+# Python
+############################
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+############################
+# Node / Frontend
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+.out/
+.cache/
+
+############################
+# ML / Data / RAG Artifacts
+############################
+*.faiss
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.bin
+*.npy
+*.npz
+
+indexes/
+vectorstore/
+embeddings/
+models/
+checkpoints/
+
+############################
+# Data (prevent accidental leaks)
+############################
+data/raw/
+data/processed/
+data/interim/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+############################
+# Logs & Runtime
+############################
+logs/
+*.log
+*.tmp
+*.cache
+
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+############################
+# Docker
+############################
+*.pid
+docker-data/
+volumes/
+
+############################
+# Jupyter
+############################
+*.ipynb
